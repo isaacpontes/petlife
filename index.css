@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #263138;
 }
@@ -102,6 +106,7 @@ h2 {
 /* Seção dúvidas frequentes */
 #duvidas {
   display: flex;
+  align-items: start;
   gap: 64px;
   padding: 64px 128px;
 }
@@ -130,6 +135,16 @@ h2 {
   border-left: 1px solid #FF725E;
   border-radius: 0 0 8px 8px;
   margin-top: -8px;
+  padding: 0 24px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: .5s;
+}
+
+.duvida.ativa p {
+  height: fit-content;
+  opacity: 1;
   padding: 24px;
 }
 
@@ -166,4 +181,15 @@ footer .col-2 {
 
 footer .col-3 {
   flex: 2;
+}
+
+.copyright {
+  background-color: #263138;
+  color: #FFFFFF;
+  padding: 24px;
+  text-align: center;
+}
+
+.copyright a {
+  color: #FF9A6C;
 }
