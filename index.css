@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #263138;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #FF9A6C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 128px;
+  padding-right: 128px;
+}
+
+header a {
+  color: #FFFFFF;
+  font-weight: 600;
+  padding: 0 32px;
+  text-decoration: none;
+}
+/* Seção inicial */
+#inicio {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 24px 128px 160px 128px;
+  position: relative;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.paragrafo {
+  line-height: 150%;
+  margin-bottom: 32px;
+}
+
+.button {
+  background-color: #FF725E;
+  border-radius: 8px;
+  color: #FFFFFF;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+.button-transparent {
+  background-color: transparent;
+  color: #FF725E;
+  padding: 16px 32px;
+  text-underline-offset: 4px;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -10;
+}
+
+/* Seção clínica */
+#clinica {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 128px;
+}
+
+#clinica li {
+  margin-bottom: 16px;
+  margin-left: 32px;
+}
+
+/* Seção petshop e farmácia */
+#farmacia {
+  padding: 64px 128px;
+  text-align: center;
+}
+
+#farmacia img {
+  margin: 64px auto;
+}
+
+#farmacia .paragrafo {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+/* Seção dúvidas frequentes */
+#duvidas {
+  display: flex;
+  gap: 64px;
+  padding: 64px 128px;
+}
+
+.duvida {
+  position: relative;
+}
+
+.duvida strong {
+  border: 2px solid #FF725E;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  padding: 24px;
+}
+
+.duvida img {
+  position: absolute;
+  top: 32px;
+  right: 24px;
+}
+
+.duvida p {
+  border-right: 1px solid #FF725E;
+  border-bottom: 1px solid #FF725E;
+  border-left: 1px solid #FF725E;
+  border-radius: 0 0 8px 8px;
+  margin-top: -8px;
+  padding: 24px;
+}
+
+/* Rodapé */
+footer {
+  background-color: rgba(255, 154, 108, 0.25);
+  display: flex;
+  gap: 128px;
+  padding: 64px 128px;
+}
+
+footer img,
+footer .titulo {
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+footer a,
+footer p {
+  color: #263138;
+  display: block;
+  margin-bottom: 16px;
+  max-width: 350px;
+  text-decoration: none;
+}
+
+footer .col-1 {
+  flex: 2;
+}
+
+footer .col-2 {
+  flex: 1;
+}
+
+footer .col-3 {
+  flex: 2;
+}
