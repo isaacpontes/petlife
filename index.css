@@ -21,8 +21,8 @@ header {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
-  padding-left: 128px;
-  padding-right: 128px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 header a {
@@ -36,7 +36,7 @@ header a {
   display: flex;
   align-items: center;
   gap: 32px;
-  padding: 24px 128px 160px 128px;
+  padding: 24px 80px 160px 80px;
   position: relative;
 }
 
@@ -80,7 +80,7 @@ h2 {
   display: flex;
   align-items: center;
   gap: 64px;
-  padding: 64px 128px;
+  padding: 64px 80px;
 }
 
 #clinica li {
@@ -90,7 +90,7 @@ h2 {
 
 /* Seção petshop e farmácia */
 #farmacia {
-  padding: 64px 128px;
+  padding: 64px 80px;
   text-align: center;
 }
 
@@ -108,7 +108,7 @@ h2 {
   display: flex;
   align-items: start;
   gap: 64px;
-  padding: 64px 128px;
+  padding: 64px 80px;
 }
 
 .duvida {
@@ -139,7 +139,7 @@ h2 {
   height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: .5s;
+  transition: .2s;
 }
 
 .duvida.ativa p {
@@ -152,8 +152,8 @@ h2 {
 footer {
   background-color: rgba(255, 154, 108, 0.25);
   display: flex;
-  gap: 128px;
-  padding: 64px 128px;
+  gap: 80px;
+  padding: 64px 80px;
 }
 
 footer img,
