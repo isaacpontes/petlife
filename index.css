@@ -36,7 +36,7 @@ header a {
   display: flex;
   align-items: center;
   gap: 32px;
-  padding: 24px 80px 160px 80px;
+  padding: 24px 80px 128px 80px;
   position: relative;
 }
 
